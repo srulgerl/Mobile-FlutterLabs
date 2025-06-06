@@ -1,0 +1,37 @@
+name: lab14_fix
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  file_picker:
+    git:
+      url: https://github.com/miguelpruivo/flutter_file_picker.git
+  path_provider: ^2.1.1
+  provider: ^6.1.1
+  google_fonts: ^6.1.0
+  flutter_easyloading: ^3.0.5
+  uuid: ^4.2.1
+  image_picker: ^1.0.7
+  path: ^1.8.3
+  location: ^5.0.3
+  sqflite: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+dependency_overrides:
+  flutter_spinkit:
+    git:
+      url: https://github.com/jogboms/flutter_spinkit.git
+      ref: master

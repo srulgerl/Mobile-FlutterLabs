@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/saruulgerelotgonbaatar/development/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/saruulgerelotgonbaatar/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/saruulgerelotgonbaatar/Documents/2024/Mobile/lab9+/lab13/shop_app-Lecture-12-4/android/app/.cxx/Debug/3j3g5v3q/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/saruulgerelotgonbaatar/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/saruulgerelotgonbaatar/Documents/2024/Mobile/lab9+/lab13/shop_app-Lecture-12-4/android/app/.cxx/Debug/3j3g5v3q/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
